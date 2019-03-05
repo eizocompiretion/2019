@@ -5,13 +5,21 @@ html, body {
   padding: 0;
 }
 h1 {
-  font-weight:700;
+  letter-spacing : 0.14em ;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+  color: #FFF;
+  font-weight: bold;
   font-family: 'Noto Sans JP', sans-serif;
-  font-size: 1.3em;
+  font-size: 1.04em;
 }
 p{
-  font-weight:400;
+  letter-spacing : 0.24em ;
+  color: #FFF;
+  line-height: 2.4;
+  font-weight: lighter;
   font-family: 'Noto Sans JP', sans-serif;
+  font-size: 0.8em;
 }
 video{
   margin-top: 10000px;
@@ -21,9 +29,10 @@ video{
    -o-box-sizing: border-box;
    -ms-box-sizing: border-box;
    box-sizing: border-box;
-  border : 20px solid #000aff ;
+  border : 20px solid #1f489d ;
 }
 body{
+  background-color: #1f489d;
 }
 
 .KV{
@@ -38,6 +47,8 @@ body{
   width: 70px;
 }
 .text{
+  margin-top: 25vw;
+  margin-bottom: 18vw;
   margin-left: 6vw;
   margin-right: 6vw;
 }
@@ -50,6 +61,7 @@ body{
   background-color: #949292;
 }
 .footer_text{
+  font-size: 0.4em;
   display: inline-block;
 }
 
