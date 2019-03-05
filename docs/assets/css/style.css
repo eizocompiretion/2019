@@ -40,14 +40,18 @@ body{
   background-color: #e0dcdc;
 }
 .sub_coment{
-  height: 300px;
-  background-color: #838181;
+  width: 100%;
 }
 .a{
   width: 70px;
 }
+.b{
+  width: 100vw; /* 任意の幅を指定 */
+  height: 100%; /* 任意の高さを指定 */
+  object-fit: cover ;
+}
 .text{
-  margin-top: 25vw;
+  margin-top: 20vw;
   margin-bottom: 18vw;
   margin-left: 6vw;
   margin-right: 6vw;
@@ -58,7 +62,8 @@ body{
   color: #ffffff;
   padding-top: 8px;
   padding-bottom: 8px;
-  background-color: #949292;
+  border-top: solid 0.6px #fff ;
+  border-bottom: solid 0.6px #fff ;
 }
 .footer_text{
   font-size: 0.4em;
@@ -88,4 +93,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+#text_0{
+  font-size:  0.6em;
 }
