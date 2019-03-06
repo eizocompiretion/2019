@@ -22,7 +22,11 @@ p{
   font-size: 0.8em;
 }
 video{
-  margin-top: 10000px;
+  position: fixed;
+
+  height: 100%;
+  top: 0px;
+  left: 0px;
   width: 100vw;
   -moz-box-sizing: border-box;
    -webkit-box-sizing: border-box;
@@ -33,6 +37,13 @@ video{
 }
 body{
   background-color: #1f489d;
+}
+a{
+  display: block;
+  color: none;
+  cursor: pointer;
+  text-decoration: blink;
+
 }
 
 .KV{
@@ -49,6 +60,9 @@ body{
   width: 100vw; /* 任意の幅を指定 */
   height: 100%; /* 任意の高さを指定 */
   object-fit: cover ;
+}
+.c{
+  width: 28px;
 }
 .text{
   background-color: #1f489d;
@@ -69,6 +83,14 @@ body{
 .footer_text{
   font-size: 0.4em;
   display: inline-block;
+}
+.nicevideo{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 #loading{
