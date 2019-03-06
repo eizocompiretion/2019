@@ -11,10 +11,10 @@ $(function() {
 //$('#loading').velocity('fadeOut', {complete:function(){$('body').css('position', 'relative')}});
 
 
-var animationTivel = lottie.loadAnimation({
-container: document.getElementById('loading'),
-renderer: 'svg',
-loop: none,
-autoplay: true,
-path: 'assets/json/data.json'
-});
+//var animationTivel = lottie.loadAnimation({
+//container: document.getElementById('tivel'),
+//renderer: 'svg',
+//loop: true,
+//autoplay: true,
+//path: 'assets/json/data.json'
+//});
