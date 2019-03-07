@@ -22,8 +22,7 @@ p{
   font-size: 0.8em;
 }
 video{
-  position: fixed;
-
+  padding: 0 0;
   height: 100%;
   top: 0px;
   left: 0px;
@@ -68,8 +67,8 @@ a{
   background-color: #1f489d;
   margin-top: 20vw;
   margin-bottom: 18vw;
-  margin-left: 6vw;
-  margin-right: 6vw;
+  margin-left: 9vw;
+  margin-right: 9vw;
 }
 .footer{
   text-align: center;
