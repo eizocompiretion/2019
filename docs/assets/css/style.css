@@ -42,7 +42,6 @@ a{
   color: none;
   cursor: pointer;
   text-decoration: blink;
-
 }
 
 .KV{
@@ -90,6 +89,10 @@ a{
   justify-content: center;
   align-items: center;
   height: 100vh;
+}
+.zip{
+  color: #FFF;
+  text-decoration: underline;
 }
 
 #loading{
